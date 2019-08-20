@@ -510,7 +510,7 @@ pre {
   padding-left: 15px; }
 
 .col-md {
-  padding-right: 0px;
+  padding-right: 10px;
   padding-left: 0px;
 }
 
@@ -8274,7 +8274,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 6em 0;
+  padding: 4em 0;
   position: relative; }
 
 .ftco-bg-dark {
