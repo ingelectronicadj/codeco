@@ -7117,7 +7117,7 @@ button.bg-dark:focus {
   .text-sm-right {
     text-align: right !important; }
   .text-sm-center {
-    text-align: center !important; } }
+    text-align: center !important; }}
 
 @media (min-width: 768px) {
   .text-md-left {
@@ -7711,10 +7711,16 @@ h1, h2, h3, h4, h5,
 
 .text-bread {
   height: 650px; }
-  .text-bread .text .bread {
-    font-weight: 800;
-    font-size: 60px;
-    color: #fff; }
+.text-bread .text .bread {
+  font-weight: 800;
+  font-size: 60px;
+  color: #fff; }
+  @media (max-width: 768px) { 
+    .text-bread .text .bread{
+      font-size: 35px;
+    }
+  }
+
   .text-bread .text .breadcrumbs {
     font-weight: 500; }
     .text-bread .text .breadcrumbs span {
