@@ -3328,7 +3328,11 @@ input[type="button"].btn-block {
   .navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none; }
   .navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer; }
+    cursor: pointer;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    flex-wrap: wrap;
+    flex: auto; }
 
 .navbar-toggler-icon {
   display: inline-block;
@@ -7321,6 +7325,10 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #fcd307 !important; }
 
+.logo{
+  width: 100%;
+}
+
 .ftco-navbar-light {
   background: transparent !important;
   z-index: 3;
@@ -7337,7 +7345,7 @@ h1, h2, h3, h4, h5,
     background: #000000; }
     @media (min-width: 992px) {
       .ftco-navbar-light .navbar-brand {
-        padding: 20px 30px 20px 0;
+        padding: 10px 10px 10px 0;
         position: relative; }
         .ftco-navbar-light .navbar-brand:after {
           position: absolute;
@@ -7360,8 +7368,8 @@ h1, h2, h3, h4, h5,
     font-size: 14px;
     padding-top: .8rem;
     padding-bottom: .8rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #4d4d4d;
     font-weight: 500;
     position: relative;
