@@ -9363,7 +9363,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 @media (max-width: 991.98px) {
   .hero-wrap .forth .text h1 {
-    font-size: 50px;
+    font-size: 42px;
   }
 }
 
@@ -9971,6 +9971,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .project .text h3 a {
   color: #fff;
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .project .text span {
@@ -9979,6 +9980,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   letter-spacing: 2px;
   font-size: 12px;
   font-weight: 600;
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 @media (max-width: 767.98px) {
