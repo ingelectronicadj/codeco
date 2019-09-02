@@ -9471,6 +9471,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   font-weight: 800;
   font-size: 60px;
   color: #fff;
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 @media (max-width: 768px) {
@@ -9485,10 +9486,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .text-bread .text .breadcrumbs span {
   color: #fff;
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .text-bread .text .breadcrumbs span a {
   color: #fff;
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .video-hero {
@@ -10482,6 +10485,7 @@ textarea.form-control {
 .heading-section.heading-section-white h2 {
   font-size: 40px;
   color: #fff;
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .heading-section.heading-section-white p {
@@ -10690,12 +10694,14 @@ textarea.form-control {
   font-size: 40px;
   color: #fff;
   display: block;
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .ftco-counter .text span {
   display: block;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
+  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 @media (max-width: 767.98px) {
