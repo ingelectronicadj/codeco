@@ -528,6 +528,16 @@ pre code {
   margin-left: auto;
 }
 
+.list_required{
+  text-align: justify;
+}
+
+.img-about-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -2800,6 +2810,17 @@ a.btn.disabled, fieldset:disabled a.btn {
 .btn-outline-info.disabled, .btn-outline-info:disabled {
   color: #17a2b8;
   background-color: transparent;
+}
+
+.team-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-team {
+  width: 100%;
+  margin: 20px;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active, .show>.btn-outline-info.dropdown-toggle {
@@ -9008,7 +9029,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     padding-top: .6rem;
     padding-bottom: .6rem;
     color: #fff;
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 0;
   }
 }
@@ -9156,7 +9177,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .ftco-navbar-light.scrolled .nav-item.active>a {
-  color: #000000 !important;
+  color: #fcd307 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta>a {
@@ -9202,19 +9223,18 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .ftco-navbar-light.scrolled .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
   border-color: rgba(0, 0, 0, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: .1em;
+  margin-block-start: 10px;
 }
 
 .ftco-navbar-light.scrolled .nav-link {
   padding-top: 0.9rem !important;
   padding-bottom: 0.9rem !important;
-  color: #000000 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-link.active {
@@ -9237,6 +9257,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .ftco-navbar-light.scrolled .navbar-brand {
   color: #fff;
   font-size: 20px;
+  padding: 10px 0 3px 10px;
 }
 
 @media (min-width: 992px) {
@@ -9472,7 +9493,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   font-weight: 800;
   font-size: 60px;
   color: #fff;
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 @media (max-width: 768px) {
@@ -9487,12 +9508,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .text-bread .text .breadcrumbs span {
   color: #fff;
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .text-bread .text .breadcrumbs span a {
   color: #fff;
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .video-hero {
@@ -9622,13 +9643,14 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .btn.btn-primary {
   background: #fcd307;
   border: 1px solid #fcd307;
-  color: #fff;
+  color: #000;
 }
 
 .btn.btn-primary:hover {
   border: 1px solid #fcd307;
-  background: transparent;
+  background: #FFFBE5;
   color: #fcd307;
+  font-weight: 500;
 }
 
 .btn.btn-primary.btn-outline-primary {
@@ -9845,11 +9867,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   margin-bottom: 40px;
 }
 
-.distanciado{
+.distanciado {
   margin: 0 10% 0 0;
 }
-@media (max-width: 768px) { 
-  .distanciado{
+
+@media (max-width: 768px) {
+  .distanciado {
     margin: 0 2% 20px 0;
   }
 }
@@ -9972,7 +9995,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .project .text h3 a {
   color: #fff;
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .project .text span {
@@ -9981,7 +10004,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   letter-spacing: 2px;
   font-size: 12px;
   font-weight: 600;
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 @media (max-width: 767.98px) {
@@ -10052,7 +10075,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .block-7 .heading {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -10103,7 +10126,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .block-7 .pricing-text li {
   list-style: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #b3b3b3;
 }
 
@@ -10145,6 +10168,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 @media (max-width: 767.98px) {
   .blog-entry {
     margin-bottom: 30px;
+  }
+  .ftco-navbar-light.scrolled {
+    background-color: #000 !important;
   }
 }
 
@@ -10295,7 +10321,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #141313;
-  padding: 6em 0;
+  padding: 2em 0;
 }
 
 .ftco-footer .ftco-footer-logo {
@@ -10488,7 +10514,7 @@ textarea.form-control {
 .heading-section.heading-section-white h2 {
   font-size: 40px;
   color: #fff;
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .heading-section.heading-section-white p {
@@ -10697,14 +10723,14 @@ textarea.form-control {
   font-size: 40px;
   color: #fff;
   display: block;
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 .ftco-counter .text span {
   display: block;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
-  text-shadow:1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
 
 @media (max-width: 767.98px) {
