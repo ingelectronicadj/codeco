@@ -532,7 +532,7 @@ pre code {
   text-align: justify;
 }
 
-.img-about-logos{
+.img-about-logos, .img-about-logos a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10310,7 +10310,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 4em 0;
+  padding: 3em 0;
   position: relative;
 }
 

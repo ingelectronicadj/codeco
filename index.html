@@ -83,86 +83,36 @@
     </div>
   </section>
 
-  <div class="row justify-content-center mb-5 pb-3">
-    <div class="col-lg-6 heading-section text-center ftco-animate fadeInUp ftco-animated">
-      <h2 class="mb-1">
-        <i class="fa fa-user-md" aria-hidden="true"></i>
-        ¿Que servicio necesitas?
-      </h2>
-      <select name="servicio" id="id_servicio" class="form-control" onchange="location = this.value;">
-        <option value="#" title="">-- Seleccionar --</option>
-        <optgroup label="Actualización del RUNT">
-          <option value="#id_services" title="Examen para refrendar licencia de conducir">
-            Examen para refrendar licencia de conducir
-          </option>
-          <option value="#id_services" title="Examen para expedir licencia de conducir">
-            Examen para expedir licencia de conducir
-          </option>
-        </optgroup>
-        <optgroup label="Autenticación digital ante el RUNT">
-          <option value="#id_services_auth" title="Agendamiento de cita ante el SIM">
-            Agendamiento de cita ante el SIM
-          </option>
-        </optgroup>
-        <optgroup label="Verificar infracciones de tránsito">
-          <option value="https://consulta.simit.org.co/Simit/verificar/contenido_verificar_pago_linea.jsp" title="Consulta de comparendos">
-            Consulta de comparendos
-          </option>
-        </optgroup>
-      </select>
-    </div>
-  </div>
-
-  <section class="ftco-section ftco-no-pt ftco-no-pb">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center order-md-last"
-          style="background-image: url(images/lateral.jpeg);">
-        </div>
-        <div class="col-md-7 wrap-about pt-md-5 ftco-animate">
-          <div class="heading-section mb-3 pt-3 pl-md-3">
-            <div class="pr-md-3 mr-md-5">
-              <span class="subheading">CONDUCTORES DE COLOMBIA 2 SAS</span>
-              <h2 class="mb-4">Acreditados y habilitados por la ONAC, el Ministerio de Transporte y la Secretaria de
-                Salud</h2>
-            </div>
-          </div>
-          <div class="pr-md-3 pr-lg-5 pl-md-5 mr-md-5 mb-5">
-            <div class="services-wrap d-flex">
-              <div class="media-body pl-md-0 pl-4 pr-4 order-md-first">
-                <h3 class="heading">Exámen médico para la licencia de conducción</h3>
-                <p>Prestamos el servicio de certificación de personas, para la obtención de los certificados
-                  psicosensométricos / psicofísicos, con criterios de equidad, validez y confiabilidad, existiendo un
-                  claro apego a los requerimientos establecidos en la normatividad vigente.</p>
-              </div>
-            </div>
-            <div class="services-wrap d-flex">
-              <div class="media-body pl-md-0 pl-4 pr-4 order-md-first">
-                <h3 class="heading">Exámen Médico Ocupacional</h3>
-                <p>Determina las condiciones de salud física, mental y social del trabajador antes de su contratación,
-                  en función de las condiciones de trabajo a las que estaría expuesto.
-                </p>
-              </div>
-            </div>
-            <div class="services-wrap d-flex">
-              <div class="media-body pl-md-0 pl-4 pr-4 order-md-first">
-                <h3 class="heading">Exámen completo de Visión</h3>
-                <p>Toma agudeza visual, visión lejana y visión próxima, Test al color, Test de visión en profundidad,
-                  Queratometria (cálculo del diámetro de la córnea), exámen fondo de Ojo para
-                  detección de enfermedades como la maculopatia.
-                </p>
-              </div>
-            </div>
-            <div class="services-wrap d-flex">
-              <div class="media-body pl-md-0 pl-4 pr-4 order-md-first">
-                <h3 class="heading">Acádemia de conducción</h3>
-                <p>Academia de conducción dedicada a la capacitación teórico-práctica de conductores, con un alto grado
-                  de calidad enfocada a la satisfacción y cumplimiento de la normatividad en Colombia.</p>
-              </div>
-            </div>
-          </div>
+  <section class="ftco-project">
+    <div class="container-fluid px-4">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-lg-6 heading-section text-center ftco-animate">
+          <h2 class="mb-1"><i class="fa fa-user-md" aria-hidden="true"></i>
+            ¿Que servicio necesitas?</h2>
+          <select name="servicio" id="id_servicio" class="form-control" onchange="location = this.value;">
+            <option value="#" title="">-- Seleccionar --</option>
+            <optgroup label="Actualización del RUNT">
+              <option value="#id_services" title="Examen para refrendar licencia de conducir">
+                Examen para refrendar licencia de conducir
+              </option>
+              <option value="#id_services" title="Examen para expedir licencia de conducir">
+                Examen para expedir licencia de conducir
+              </option>
+            </optgroup>
+            <optgroup label="Autenticación digital ante el RUNT">
+              <option value="#id_services_auth" title="Agendamiento de cita ante el SIM">
+                Agendamiento de cita ante el SIM
+              </option>
+            </optgroup>
+            <optgroup label="Verificar infracciones de tránsito">
+              <option value="https://consulta.simit.org.co/Simit/verificar/contenido_verificar_pago_linea.jsp" title="Consulta de comparendos">
+                Consulta de comparendos
+              </option>
+            </optgroup>
+          </select>
         </div>
       </div>
+      
     </div>
   </section>
 
@@ -616,11 +566,20 @@
             <p>Somos una empresa prestadora de servicios de certificación de aptitud física, mental y de coordinación
               motriz. Certificamos ante las autoridades de tránsito.</p>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-              <li class="ftco-animate"><a href="https://co.linkedin.com/in/ips-crc-de-colombia-2-sas-336544169"><span
-                    class="icon-linkedin"></span></a></li>
-              <li class="ftco-animate"><a href="https://api.whatsapp.com/send?phone=573017977937"><span
-                    class="icon-whatsapp"></span></a></li>
+              <li class="ftco-animate">
+                <a href="https://co.linkedin.com/in/ips-crc-de-colombia-2-sas-336544169" target="_blank">
+                <span class="icon-linkedin"></span>
+                </a>
+              </li>
+              <li class="ftco-animate">
+                <a href="https://api.whatsapp.com/send?phone=573017977937">
+                  <span class="icon-whatsapp"></span>
+                </a>
+              </li>
               <li class="ftco-animate"><a href="mailto:crcdecolombia@hotmail.com"><span class="icon-chat"></span></a>
+                <li class="ftco-animate"><a href="https://www.instagram.com/codeco.crc/" target="_blank">
+                  <span><i class="fa fa-instagram" aria-hidden="true" style="font-size:32px;padding:9px 11px;"></i></span>
+                </a>
               </li>
             </ul>
           </div>
@@ -654,13 +613,22 @@
             <h2 class="ftco-heading-2">Tienes alguna pregunta?</h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">Cll 19B # 16 - 43 Sur, Bogotá</span>
+                <li>
+                  <span class="icon icon-map-marker"></span>
+                  <span class="text">Cll 19B # 16 - 43 Sur, Bogotá</span>
                 </li>
-                <li><a href="https://api.whatsapp.com/send?phone=573017977937"><span
-                      class="icon icon-phone"></span><span class="text">(+571) 7043239 /
-                      3014452047</span></a></li>
-                <li><a href="mailto:crcdecolombia@hotmail.com"><span class="icon icon-envelope"></span><span
-                      class="text">crcdecolombia@hotmail.com</span></a></li>
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=573017977937">
+                    <span class="icon icon-phone"></span><span class="text">(+571) 7043239 /
+                      3014452047</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:crcdecolombia@hotmail.com">
+                    <span class="icon icon-envelope"></span>
+                    <span class="text">crcdecolombia@hotmail.com</span>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
