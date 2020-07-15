@@ -528,11 +528,11 @@ pre code {
   margin-left: auto;
 }
 
-.list_required{
+.list_required {
   text-align: justify;
 }
 
-.img-about-logos, .img-about-logos a{
+.img-about-logos, .img-about-logos a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -552,11 +552,19 @@ pre code {
   z-index: 100;
   box-shadow: 0 4px 8px 0 rgba(0, 113, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.whatsapp:hover,.whatsapp:active,.whatsapp:focus{
+
+.whatsapp:hover, .whatsapp:active, .whatsapp:focus {
   color: #FFF !important;
 }
+
 .whatsapp-icon {
   margin-top: 13px;
+}
+
+.ftco-footer-social{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -10023,7 +10031,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   color: #fcd307;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px darkblue;
 }
