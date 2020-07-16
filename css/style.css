@@ -9815,6 +9815,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .img-2 {
   position: relative;
+  background-size: contain !important;
 }
 
 @media (max-width: 767.98px) {
@@ -10551,7 +10552,7 @@ textarea.form-control {
 }
 
 .hotel-img, .img, .blog-img, .about-img, .user-img {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
