@@ -8744,6 +8744,12 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 .text-center {
   text-align: center !important;
 }
+.text-justify {
+  text-align: justify !important;
+}
+.subtitle-form{
+  font-size: 32px !important;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {

@@ -53,8 +53,8 @@
 					<li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
 					<li class="nav-item"><a href="nuestra-marca.html" class="nav-link">Quienes Somos</a></li>
 					<li class="nav-item"><a href="servicios.html" class="nav-link">Nuestros Servicios</a></li>
-					<li class="nav-item active"><a href="normatividad.html" class="nav-link">Normatividad</a></li>
-					<li class="nav-item"><a href="procedimientos.html" class="nav-link">Procedimientos</a></li>
+					<li class="nav-item"><a href="normatividad.html" class="nav-link">Normatividad</a></li>
+					<li class="nav-item active"><a href="procedimientos.html" class="nav-link">Procedimientos</a></li>
 					<li class="nav-item"><a href="contacto.html" class="nav-link">Contáctenos</a></li>
 				</ul>
 			</div>
@@ -63,98 +63,247 @@
 	<!-- END nav -->
 
 	<section class="ftco-section bg-light">
-        <div class="container-fluid px-4">
-            <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-lg-12 heading-section text-center ftco-animate">
-                    <span class="subheading">Formato digital V.02-2019.01.04</span>
-                    <h2 class="mb-4">Solicitud de certificación </h2>
-                    <form name="submit-to-google-sheet">
-                        <label for="id_name">Nombre del solicitante:</label>
-                        <input class="form-control" name="Nombre-Del-Solicitante" id="id_name" type="text"
-                            placeholder="Nombres y apellidos" required>
-                        <label for="id_type_doc">Tipo de documento:</label>
-                        <select class="custom-select" name="Tipo-de-Documento" id="id_type_doc">
-                            <option value="NN">Seleccione</option>
-                            <option value="CCO">CCO</option>
-                            <option value="TIO">TIO</option>
-                            <option value="CED">CED</option>
-                        </select>
-                        <label for="id_Num_Dod">No.:</label>
-                        <input class="form-control" name="Num-Documento" id="id_Num_Dod" type="number"
-                            placeholder="# de documento" required>
-                        <br>
-                        <label for="id_email">Correo electrónico:</label>
-                        <input class="form-control" name="Email" type="email" id="id_email" placeholder="Email" required>
-                        <label for="id_grade">Nivel de escolaridad:</label>
-                        <select class="custom-select" name="Nivel-de-Escolaridad" id="id_grade">
-                            <option value="NN">Seleccione</option>
-                            <option value="Ninguna">Ninguna</option>
-                            <option value="Primaria">Primaria</option>
-                            <option value="Secundaria">Secundaria</option>
-                            <option value="Universitaria">Universitaria</option>
-                            <option value="Postgrado">Postgrado</option>
-                        </select>
-                        <label for="id_profession">Ocupación:</label>
-                        <input class="form-control" name="Ocupacion" id="id_profession" type="text"
-                            placeholder="Trabajo como:">
-                        <br>
-                        <label for="id_street">Dirección:</label>
-                        <input class="form-control" name="Direccion" type="text" id="id_street"
-                            placeholder="Cll / Cra / Barrio">
-                        <label for="id_city">Ciudad:</label>
-                        <input class="form-control" name="Ciudad" type="text" id="id_city" placeholder="Donde reside">
-                        <label for="id_tel">Teléfono:</label>
-                        <input class="form-control" name="Telefono" id="id_tel" type="number" placeholder="celular o fijo"
-                            required>
-                        <br>
-                        <label for="id_birth">Fecha de nacimiento:</label>
-                        <input class="form-control" name="Fecha-De-Nacimiento" type="date" id="id_birth">
-                        <label for="id_eps">EPS:</label>
-                        <input class="form-control" name="EPS" type="text" id="id_eps" placeholder="Plan de salud actual">
-                        <label for="id_rh">RH:</label>
-                        <select class="custom-select" name="RH" id="id_rh">
-                            <option value="NN">Seleccione</option>
-                            <option value="A+">A+</option>
-                            <option value="A-">A-</option>
-                            <option value="B+">B+</option>
-                            <option value="B-">B-</option>
-                            <option value="O+">O+</option>
-                            <option value="O-">O-</option>
-                            <option value="AB+">AB+</option>
-                            <option value="AB-">AB-</option>
-                        </select>
-                        <br>
-                        <label for="id_type_procedure">Tipo de tramite:</label>
-                        <select class="custom-select" name="Tipo-de-tramite" id="id_type_procedure">
-                            <option value="NN">Seleccione</option>
-                            <option value="Primera Vez">Primera Vez</option>
-                            <option value="Refrendación">Refrendación</option>
-                            <option value="Recategorización">Recategorización</option>
-                            <option value="Recateg. hacia arriba">Recateg. hacia arriba</option>
-                            <option value="Recateg. hacia abajo">Recateg. hacia abajo</option>
-                        </select>
-                        <label for="id_category">Categoria solicitada:</label>
-                        <select class="custom-select" name="Categoria-solicitada" id="id_category">
-                            <option value="NN">Seleccione</option>
-                            <option value="A2">A2</option>
-                            <option value="B1">B1</option>
-                            <option value="B2">B2</option>
-                            <option value="B3">B3</option>
-                            <option value="C1">C1</option>
-                            <option value="C2">C2</option>
-                            <option value="C3">C3</option>
-                        </select>
-                        <label for="id_contact_aux">Acudiente:</label>
-                        <input class="form-control" name="Acudiente" id="id_contact_aux" type="text"
-                            placeholder="(Si es menor de edad)">
-                        <br>
-                        <button type="reset" class="btn btn-secondary py-3 px-5">Borrar todo</button>
-                        <button type="submit" id="id_submit" class="btn btn-primary py-3 px-5">Enviar datos</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>    
+		<div class="container-fluid px-4">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-lg-12 heading-section text-center ftco-animate">
+					<span class="subheading">Formato digital V.02-2019.01.04</span>
+					<h2 class="mb-4">Solicitud de certificación </h2>
+					<form name="submit-to-google-sheet">
+						<label for="id_name">Nombre del solicitante:</label>
+						<input class="form-control" name="Nombre-Del-Solicitante" id="id_name" type="text"
+							placeholder="Nombres y apellidos" required>
+						<label for="id_type_doc">Tipo de documento:</label>
+						<select class="custom-select" name="Tipo-de-Documento" id="id_type_doc">
+							<option value="NN">Seleccione</option>
+							<option value="Cedula de ciudadanía">Cedula de ciudadanía</option>
+							<option value="Tarjeta de identidad">Tarjeta de identidad</option>
+							<option value="Cedula de extranjería">Cedula de extranjería</option>
+							<option value="Pasaporte">Pasaporte</option>
+						</select>
+						<label for="id_Num_Dod">No.:</label>
+						<input class="form-control" name="Num-Documento" id="id_Num_Dod" type="number"
+							placeholder="# de documento" required>
+						<br>
+						<label for="id_email">Correo electrónico:</label>
+						<input class="form-control" name="Email" type="email" id="id_email" placeholder="Email"
+							required>
+						<label for="id_grade">Nivel de escolaridad:</label>
+						<select class="custom-select" name="Nivel-de-Escolaridad" id="id_grade">
+							<option value="NN">Seleccione</option>
+							<option value="Ninguna">Ninguna</option>
+							<option value="Primaria">Primaria</option>
+							<option value="Secundaria">Secundaria</option>
+							<option value="Universitaria">Universitaria</option>
+							<option value="Postgrado">Postgrado</option>
+						</select>
+						<label for="id_profession">Ocupación:</label>
+						<input class="form-control" name="Ocupacion" id="id_profession" type="text"
+							placeholder="Trabajo como:">
+						<br>
+						<label for="id_street">Dirección:</label>
+						<input class="form-control" name="Direccion" type="text" id="id_street"
+							placeholder="Cll / Cra / Barrio">
+						<label for="id_city">Ciudad:</label>
+						<input class="form-control" name="Ciudad" type="text" id="id_city" placeholder="Donde reside">
+						<label for="id_tel">Teléfono:</label>
+						<input class="form-control" name="Telefono" id="id_tel" type="number"
+							placeholder="celular o fijo" required>
+						<br>
+						<label for="id_birth">Fecha de nacimiento:</label>
+						<input class="form-control" name="Fecha-De-Nacimiento" type="date" id="id_birth">
+						<label for="id_eps">EPS:</label>
+						<input class="form-control" name="EPS" type="text" id="id_eps"
+							placeholder="Plan de salud actual">
+						<label for="id_rh">RH:</label>
+						<select class="custom-select" name="RH" id="id_rh">
+							<option value="NN">Seleccione</option>
+							<option value="A+">A+</option>
+							<option value="A-">A-</option>
+							<option value="B+">B+</option>
+							<option value="B-">B-</option>
+							<option value="O+">O+</option>
+							<option value="O-">O-</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+						</select>
+						<br>
+						<label for="id_type_procedure">Tipo de tramite:</label>
+						<select class="custom-select" name="Tipo-de-tramite" id="id_type_procedure">
+							<option value="NN">Seleccione</option>
+							<option value="Primera Vez">Primera Vez</option>
+							<option value="Refrendación">Refrendación</option>
+							<option value="Recategorización">Recategorización</option>
+							<option value="Recateg. hacia arriba">Recateg. hacia arriba</option>
+							<option value="Recateg. hacia abajo">Recateg. hacia abajo</option>
+						</select>
+						<label for="id_category">Categoria solicitada:</label>
+						<select class="custom-select" name="Categoria-solicitada" id="id_category">
+							<option value="NN">Seleccione</option>
+							<option value="A2">A2</option>
+							<option value="B1">B1</option>
+							<option value="B2">B2</option>
+							<option value="B3">B3</option>
+							<option value="C1">C1</option>
+							<option value="C2">C2</option>
+							<option value="C3">C3</option>
+						</select>
+						<label for="id_contact_aux">Acudiente:</label>
+						<input class="form-control" name="Acudiente" id="id_contact_aux" type="text"
+							placeholder="(Si es menor de edad)">
+						<br><br>
+						<div class="row justify-content-center mb-1 pb-3">
+							<div class="col-lg-8 heading-section ftco-animate fadeInUp ftco-animated">
+								<span class="subheading">Datos que debes tener en cuenta</span>
+								<h2 class="mb-1 subtitle-form" id="id_services_auth">Consentimiento Informativo</h2>
+								<ol class="text-justify">
+									<li>
+										<p>El CRC DE COLOMBIA 2 SAS en cumplimiento con la ley 1581 de 2012, le informa
+											que sus datos personales serán usados para iniciar el proceso de
+											certificación
+											de aptitud física, mental y de coordinación motriz, los cuales serán
+											registrados en el Sicon (Sistema de Control y Vigilancia) de la Super
+											Transporte, en la
+											base de datos del Centro de Reconocimiento y los resultados de la
+											certificación
+											incorporados en el RUT (Registro único nacional de transito).</p>
+									</li>
+									<li>
+										<p>La historia clínica y resultados obtenidos durante el proceso de evaluación
+											serán utilizados solamente con el fin de la expedición del certificado de
+											aptitud en conducción, estarán custodiados y manejados bajo los parámetros
+											de seguridad establecidos por el CRC DE COLOMBIA 2 SAS.</p>
+									</li>
+									<li>
+										<p>A usted le practicará cuatro evaluaciones donde se valorará la coordinación
+											motriz, capacidad visual, capacidad auditiva y capacidad física en general,
+											donde le evaluaran los criterios establecidos en la resolución 0217 del 31
+											de enero de 2014.</p>
+									</li>
+									<li>
+										<p>Los evaluadores de cualquiera de las cuatro especialidades podrán remitir a
+											un profesional externo como apoyo al diagnóstico para aclarar algún
+											antecedente
+											o anomalía presentada al momento de la prueba.</p>
+									</li>
+									<li>
+										<p>La certificación de aptitud física de conducción dependerá únicamente de los
+											resultados de las pruebas medicas aplicadas al candidato de acuerdo con el
+											esquema de certificación (Resolución 0217 anexo I).</p>
+									</li>
+									<li>
+										<p>El CRC DE COLOMBIA 2 SAS garantiza la imparcialidad y equidad para todos los
+											solicitantes a obtener la certificación, así como la confidencialidad de la
+											información obtenida, la cual solo será divulgada previa autorización
+											escrita del solicitante o por una instancia legal con una orden judicial.
+										</p>
+									</li>
+									<li>
+										<p>Tiene a su disposición procedimientos para la gestión de quejas y
+											apelaciones, los cuales aseguran un manejo equitativo en el tratamiento de
+											los recursos interpuestos contra sus decisiones o conformidades por el
+											servicio.</p>
+									</li>
+									<li>
+										<p>Una vez iniciado el proceso de evaluación, independiente de los resultados
+											<strong><u>NO SE HARÁ DEVOLUCIÓN DE DINERO.</u></strong></p>
+									</li>
+									<li>
+										<p>LA VIGENCIA DEL CERTIFICADO ES DE <strong><u>180 días
+													calendario.</u></strong></p>
+									</li>
+									<li>
+										<p>El usuario manifiesta su compromiso de no divulgar materiales de examenes
+											confidenciales ni tomar parte en prácticas fraudulentas.</p>
+									</li>
+									<li>
+										<p>He leído el folleto informativo (publicado en cartelera) y acepto cumplir con
+											las disposiciones pertinentes del esquema de certificación, los requisitos
+											de certificación los derechos de los aspirantes, los deberes de las personas
+											certificadas, código de conducta, incluyendo la política de uso del
+											certificado.</p>
+									</li>
+								</ol>
+								<h2 class="mb-1 subtitle-form" id="id_services_auth">Requisitos</h2>
+								<ol class="text-justify">
+									<li>
+										<p>Presentar su documento original (Cedula de ciudadanía, tarjeta de identidad,
+											cedula de extranjería, pasaporte - extranjeros).</p>
+									</li>
+									<li>
+										<p>Realizar el pago correspondiente por el servicio.</p>
+									</li>
+									<li>
+										<p>Diligenciar formato de solicitud para acceder al servicio CER-F-01.</p>
+									</li>
+									<li>
+										<p>Permitir registro de datos personales, toma de fotografías y huellas
+											digitales para identificación biométrica.</p>
+									</li>
+									<li>
+										<p>Es indispensable que al momento de la realización de las pruebas usted cuente
+											con un estado de salud optimo, de manera que los resultados no se vean
+											afectados por agentes externos como: consumo de alcohol, consumo de
+											sustancias psicoactivas, otros.</p>
+									</li>
+									<li>
+										<p>Es indispensable que al momento de presentar la prueba cuenta con todos los
+											elementos que garanticen la mejor disposición para ello (Anteojos,
+											audífonos, prótesis, otros).</p>
+									</li>
+									<li>
+										<p>Proporcionar bajo la gravedad de juramento toda la información requerida por
+											los profesionales de la salud, respecto a los antecedentes referidos al
+											historial médico o diagnóstico clínico y que ella corresponderá
+											estrictamente a la verdad CRC DE COLOMBIA 2 SAS NI SUS PROFESIONALES SERÁN
+											RESPONSABLES DE LAS CONSECUENCIAS QUE GENERE COMO RESULTADO LA OMISION DE
+											DICHA INFORMACIÓN POR PARTE DEL ASPIRANTE.</p>
+									</li>
+								</ol>
+								<hr>
+								<label class="text-justify adjust-size" for="id_check_1">Por medio del envió de datos de
+									este formulario, acepto lo establecido en el “Consentimiento informado” y los
+									“Requisitos”, establecidos por CRC DE COLOMBIA 2 SAS en la presente
+									solicitud.</label>
+								<select class="custom-select adjust-size" name="Acepta-Requisitos" id="id_check_1">
+									<option value="NN">Seleccione</option>
+									<option value="SI ACEPTO">SI ACEPTO</option>
+									<option value="NO ACEPTO">NO ACEPTO</option>
+								</select>
+								<label class="text-justify adjust-size" for="id_check_2">Autorizo que la información de
+									mi evaluación (historia clínica) y mis
+									datos personales, confidenciales y sensibles, puedan ser consultados en los procesos
+									de evaluación, de acreditación por parte del Organismo Nacional de Acreditación de
+									Colombia – ONAC, así como en los procesos de auditoría interna de CRC DE COLOMBIA 2
+									SAS.</label>
+								<select class="custom-select adjust-size" name="Autoriza-confidencialidad"
+									id="id_check_2">
+									<option value="NN">Seleccione</option>
+									<option value="SI ACEPTO">SI ACEPTO</option>
+									<option value="NO ACEPTO">NO ACEPTO</option>
+								</select>
+								<label class="text-justify adjust-size" for="id_check_3">CRC DE COLOMBIA 2 SAS realiza
+									el tratamiento de los datos personales de conformidad con la normatividad vigente en
+									materia (Ley 1581 de 2012) y sus decretos reglamentarios que puede usted consultar
+									en nuestra página WEB <a href="https://conductoresdecolombia.co/normatividad.html"
+										target="_blank" rel="noopener noreferrer">(Enlace)</a>.
+									De acuerdo con lo anterior AUTORIZO a CRC DE COLOMBIA 2 SAS el tratamiento de datos
+									y acepto sus políticas de privacidad, de acuerdo con la ley 1581 de 2012.</label>
+								<select class="custom-select adjust-size" name="Acepta-politicas" id="id_check_3">
+									<option value="NN">Seleccione</option>
+									<option value="SI ACEPTO">SI ACEPTO</option>
+									<option value="NO ACEPTO">NO ACEPTO</option>
+								</select>
+							</div>
+						</div>
+
+						<br>
+						<button type="reset" class="btn btn-secondary py-3 px-5">Borrar todo</button>
+						<button type="submit" id="id_submit" class="btn btn-primary py-3 px-5">Enviar datos</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
 		<div class="container">
@@ -277,17 +426,17 @@
 
 </body>
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJCGVVwExt5Ud4bv9eYTT4frpDuvlGnmmgsED5qwgFNpitqFG4/exec';
-    const form = document.forms['submit-to-google-sheet'];
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbwJCGVVwExt5Ud4bv9eYTT4frpDuvlGnmmgsED5qwgFNpitqFG4/exec';
+	const form = document.forms['submit-to-google-sheet'];
 
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) }).then(response => {
-            console.log('Success!', response);
-            form.reset();
-            alert("Se han almacenado correctamente sus datos");
-        }).catch(error => console.error('Error!', error.message));
-    });
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) }).then(response => {
+			console.log('Success!', response);
+			form.reset();
+			alert("Se han almacenado correctamente sus datos");
+		}).catch(error => console.error('Error!', error.message));
+	});
 </script>
 
 </html>
