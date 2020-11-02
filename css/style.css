@@ -6488,6 +6488,9 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
     width: 120px;
     line-height: 16px;
   }
+  .label-poll{
+    width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
